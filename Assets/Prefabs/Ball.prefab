@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 5455710831642385085}
   - component: {fileID: 5455710831642385084}
   - component: {fileID: 2306675708404003525}
-  - component: {fileID: 2306675708404003544}
-  - component: {fileID: 2306675708404003546}
   m_Layer: 6
   m_Name: Ball
   m_TagString: Untagged
@@ -225,31 +223,3 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
---- !u!114 &2306675708404003544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5455710831642385075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ee429930e3f9948a8465dfe0bed867, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 5455710831642385084}
-  force: 10
---- !u!114 &2306675708404003546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5455710831642385075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77dd31540eccc344298579d003fea958, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 5455710831642385084}
-  lastPosition: {x: 0, y: 0, z: 0}
